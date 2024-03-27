@@ -1,0 +1,140 @@
+/* Estilos para a área do carrinho */
+.carrinho {
+    background: url(../img/carro.png) no-repeat top right;
+    background-size: contain;
+    font-size: 16px;
+    padding: 10px 35px 10px 0;
+    /* padding ajustado */
+    width: 200px;
+    /* aumento da largura */
+    margin-right: 20px;
+    /* espaçamento entre o carrinho e o menu */
+}
+
+/* Estilos para o menu de opções */
+.menu-opcoes ul {
+    font-size: 18px;
+    /* aumentando o tamanho da fonte */
+}
+
+.menu-opcoes a {
+    color: #003366;
+    text-decoration: none;
+    /* removendo sublinhado */
+    transition: color 0.3s;
+    /* suavizando a transição de cor */
+}
+
+.menu-opcoes a:hover {
+    color: #ff9900;
+    /* mudando a cor ao passar o mouse */
+}
+
+/* Estilos gerais para o corpo do documento */
+body {
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* alterando a fonte */
+    background-color: #f9f9f9;
+    /* mudando a cor de fundo */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* adicionando um pouco de espaço interno */
+    overflow: hidden;
+    /* lidando com float */
+}
+
+/* Estilos para a área de destaque */
+.destaque {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 20px;
+    /* espaçamento superior */
+    border-radius: 10px;
+    /* bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* sombra */
+}
+
+/* Estilos para os painéis de aulas */
+.painel {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    /* cor de fundo */
+    border-radius: 5px;
+    /* bordas arredondadas */
+}
+
+/* Estilos para os títulos dos painéis */
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    /* espaçamento inferior */
+}
+
+/* Estilos para os links dentro dos painéis */
+.painel a {
+    color: #0066cc;
+    /* cor do link */
+    text-decoration: none;
+    /* removendo sublinhado */
+}
+
+.painel a:hover {
+    text-decoration: underline;
+    /* sublinhado ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    /* espaçamento superior */
+    border-top: 1px solid #dddddd;
+    /* linha superior */
+}
+
+footer img {
+    height: 30px;
+    margin-right: 10px;
+    /* espaçamento à direita */
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+    /* espaçamento entre os itens */
+}
+
+footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-right: 10px;
+}
+
+.social a[href*="facebook.com"] {
+    background: url(../img/facebook.png) no-repeat;
+}
